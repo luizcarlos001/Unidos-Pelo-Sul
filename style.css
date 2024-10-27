@@ -18,7 +18,7 @@ body {
 
 .topo-site {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #013438;
   padding: 10px 190px;
@@ -33,8 +33,12 @@ body {
 }
 
 .logo {
-  margin-right: 10px;
+  margin-right: 2px;
   /* Adiciona espaço entre a logo e a imagem */
+}
+
+.logo-container .logo {
+ margin-left: -90px;
 }
 
 .logo-image {
@@ -56,7 +60,7 @@ body {
   text-decoration: none;
   margin: 0px 30px;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: .9rem;
 }
 
 .topo-site .menu-site a {
@@ -68,6 +72,166 @@ body {
 }
 
 
+/* DALTONICO ACESSIBILIDADE */
+
+
+.color-selector {
+  color: #fff;
+}
+
+/* Estilo padrão */
+body {
+  background-color: #ffffff; /* Fundo branco */
+  color: #333333; /* Texto escuro */
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #2196F3; /* Azul */
+  color: white;
+  padding: 20px;
+}
+
+.menu-site a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.menu-site a:hover {
+  text-decoration: underline;
+}
+
+.color-selector {
+  margin-top: 10px;
+}
+
+
+
+/* Estilo para daltonismo */
+.color-blind-color {
+  background-color: #F0F0F0; /* Fundo cinza claro */
+  color: #222222; /* Texto um pouco mais escuro */
+}
+
+.color-blind-color header {
+  background-color: #F4F4F4 ; /* Verde */
+}
+
+.color-blind-color .menu-site a {
+  color: #333333; /* Mantenha o texto das opções em branco */
+}
+
+.color-blind-color .menu-site a:hover {
+  text-decoration: underline;
+}
+
+.color-blind-color .color-selector label {
+  color: #222222; /* Texto do seletor em um tom escuro */
+}
+
+.color-blind-color .indice h1 {
+  color: #222222;
+  background-color: #F4F4F4 ;
+}
+
+.color-blind-color .indice p {
+  color: #ffffff;
+}
+
+.color-blind-color .indice {
+  background-image: 
+    linear-gradient(rgba(0, 52, 64, 0.7), rgba(0, 0, 0, 0.8)), 
+    url(https://www.viagensecaminhos.com/wp-content/uploads/2010/08/vista-aerea-torres.jpg);
+}
+
+.color-blind-color .logo {
+  color: #222222;
+}
+
+.color-blind-color .btn {
+  color: #222222;
+  border: none;
+}
+
+.color-blind-color .btn:hover {
+  color: #222222;
+  background-color: #2196F3;
+  border: none;
+}
+
+.color-blind-color .mapas {
+  background-color: #222222 ;
+}
+
+.color-blind-color .mapas p {
+  color: #f4f4f4;
+  background-color: #FFA500;
+}
+
+.color-blind-color .doacao .title {
+  background-color: #FFA500;
+}
+
+.color-blind-color .image-container {
+  background-color: #FFA500;
+}
+
+.color-blind-color .doacao-content p {
+  color: #222222;
+
+}
+
+
+.color-blind-color .grafico .image-container {
+  color: #FFA500;
+}
+
+.color-blind-color .pessoas {
+  background-color: #222222;
+}
+
+.color-blind-color .pessoas h2 {
+  color: #ffffff;
+  background-color: #FFA500;
+}
+
+.color-blind-color .pessoas .pesquisa .btn-pesquisa{
+  color: #ffffff;
+  background-color: #FFA500;
+  border: none;
+}
+
+
+.color-blind-color .pessoas .pesquisa .btn-pesquisa:hover{
+  color: #222222;
+  background-color: #2196F3;
+}
+
+.color-blind-color .pessoas .box-container .box .btn {
+  background-color: #FFA500;
+  border: none;
+  color: #ffffff;
+}
+
+.color-blind-color .pessoas .box-container .box .btn:hover {
+  color: #222222;
+  background-color: #2196F3;
+}
+
+.color-blind-color .pessoas h3 {
+  color: #ffffff;
+  background-color: #FFA500;
+}
+
+.color-blind-color .pessoas h3:hover {
+  color: #ffffff;
+  background-color: #2196F3;
+}
+
+.color-blind-color .box-rodape h1 {
+  background-color: #FFA500;
+}
 
 
 .icons div {
@@ -258,6 +422,14 @@ section .mapas {
   transform: scale(1.03);
   /* Aumenta ligeiramente o tamanho no hover */
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -496,6 +668,7 @@ section .mapas {
 }
 
 
+
 /* Estilo geral do rodapé */
 .rodape {
   background-color: #003438;
@@ -568,3 +741,47 @@ section .mapas {
 .direitos a:hover {
   color: #fffb00;
 }
+
+
+
+.color-selector {
+  margin: 15px; /* Espaçamento ao redor do seletor */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 5px; /* Bordas arredondadas */
+  background-color: #003438; /* Cor de fundo escura */
+  color: #FFFFFF; /* Cor do texto */
+  font-family: Arial, sans-serif; /* Fonte do texto */
+}
+
+.color-selector label {
+  font-size: .9 rem; /* Tamanho da fonte do label */
+}
+
+.color-selector select {
+  width: 100%; /* Largura total do seletor */
+  padding: 10px; /* Espaçamento interno do seletor */
+  border: none; /* Remove a borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  background-color: #ffffff; /* Cor de fundo do seletor */
+  color: #000000; /* Cor do texto do seletor */
+  font-size: 1em; /* Tamanho da fonte do seletor */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+/* Efeito ao passar o mouse sobre o seletor */
+.color-selector select:hover {
+  background-color: #c4c4c4; /* Azul mais claro ao passar o mouse */
+}
+
+.color-blind-color .color-selector {
+  background-color: #F4F4F4;
+}
+
+.color-blind-color .color-selector select {
+  background-color: #222222;
+  color: #F0F0F0;
+}
+
+
+
