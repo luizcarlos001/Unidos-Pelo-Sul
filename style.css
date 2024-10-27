@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.topo-site {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #013438;
+  padding: 10px 190px;
+}
+
+
+.logo-container {
+  display: flex;
+  /* Usando flexbox para alinhar os itens horizontalmente */
+  align-items: center;
+  /* Centraliza verticalmente os itens */
+}
+
+.logo {
+  margin-right: 10px;
+  /* Adiciona espaço entre a logo e a imagem */
+}
+
+.logo-image {
+  height: 50px;
+  /* Ajuste a altura conforme necessário */
+  width: auto;
+  /* Mantém a proporção da imagem */
+}
+
+.logo {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+
+.menu-site a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 30px;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.topo-site .menu-site a {
+  justify-content: center;
+}
+
+.menu-site a:hover {
+  color: #ffffffb0;
+}
+
+
+
+
+.icons div {
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.indice {
+  text-align: center;
+  padding: 120px 0px;
+  background-color: #00828E;
+  color: #fff;
+  background-image: linear-gradient(#003438, rgba(0, 0, 0, 0.8)), url('https://www.viagensecaminhos.com/wp-content/uploads/2010/08/vista-aerea-torres.jpg');
+  background-size: cover;
+}
+
+.indice p {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.indice h1 {
+  font-size: 3rem;
+  background-color: #00828E;
+  color: #fff;
+  display: inline-block;
+  /* Faz o h1 ocupar apenas o espaço necessário */
+  padding: 10px 100px;
+  margin: 0 auto;
+  /* Centraliza o elemento se necessário */
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #008189;
+  padding: 0.5rem 1rem;
+  border: 2px solid #008189;
+  border-radius: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 1.6rem;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Adiciona a transição */
+}
+
+.btn:hover {
+  background-color: #008189;
+  color: #ffffff;
+  transform: scale(1.03); /* Aumenta ligeiramente o tamanho do botão */
+}
+
+.mapas,
+.doacao,
+.pessoas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.mapas img {
+  max-width: 900px;
+  margin-top: -20px;
+  z-index: 1;
+}
+
+
+.mapas {
+  text-align: center;
+  /* Centraliza o texto */
+
+}
+
+.mapas p {
+  background-color: #008189;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 40px;
+  padding: 10px 10px;
+  margin-top: 20px;
+  font-size: 1.6rem;
+}
+
+.backmapa {
+  background-color: #003438;
+}
+
+.doacao .title {
+  font-size: 1.6rem;
+  background-color: #00828E;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.doacao-content p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+section .mapas {
+  background-color: #003438;
+}
+
+.doacao-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 20px 0;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.doacao-content p {
+  flex: 1;
+  color: #013438;
+}
+
+.image-container {
+  background-color: #003438;
+  padding: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 220px;
+
+}
+
+.pessoas h1 {
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #008189;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.box-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 200px;
+}
+
+.grafico {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  text-align: center;
+}
+
+.container-grafico {
+  display: flex;
+  gap: 5rem;
+  /* Espaço entre as imagens */
+  justify-content: center;
+  align-items: center;
+  line-height: 1.3;
+
+}
+
+.grafico a {
+  text-decoration: none;
+}
+
+.grafico a h1:hover {
+  color: #d9e66a;
+  /* Altere para a cor de destaque desejada */
+  transform: scale(1.03);
+  /* Aumenta ligeiramente o tamanho no hover */
+}
+
+
+
+.imagem-container {
+  background-color: #003438;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.imagem-container h1 {
+  color: #fff;
+  margin-top: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s; /* Animação suave para mudanças */
+}
+
+.container-grafico .image-container a h1 {
+  text-decoration: none;
+}
+
+.imagem-container img {
+  width: 350px;
+  /* Ajuste conforme necessário */
+  height: auto;
+  /* Preserva a proporção */
+  display: block;
+}
+
+.pessoas {
+  width: 100%;
+  /* Garante que a largura ocupe 100% da viewport */
+  ;
+  min-height: 80vh;
+  top: 2818px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #003438;
+}
+
+.pessoas h2 {
+  color: #fff;
+  margin-top: 1.3rem;
+  background-color: #008189;
+  border-radius: 2rem;
+  font-family: 'Poppins';
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: center;
+  height: 70px;
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+.pessoas h3 {
+  color: #008189;
+  margin-top: 3rem;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  font-family: 'Poppins';
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1px 20px;
+  line-height: 70px;
+  margin-bottom: 40px;
+}
+
+.pessoas a h3 {
+  display: inline-block; /* Permite que o padding e a margem funcionem corretamente */
+  padding: 0rem 1rem; /* Padding para espaçamento interno */
+  border-radius: 2rem; /* Bordas arredondadas */
+  text-decoration: none; /* Remove o sublinhado do link */
+  transition: background-color 0.3s, transform 0.3s; /* Animação suave para mudanças */
+}
+
+
+.pessoas a h3:hover {
+ background-color: #008189;
+ color: #ffffff;
+  transform: scale(1.05); /* Aumenta ligeiramente o tamanho do botão */
+}
+
+
+
+.pessoas .pesquisa {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 50%;
+  justify-content: space-between;
+}
+
+
+.pessoas .pesquisa .inputBox {
+  padding-top: 1.5rem;
+  border: 1px solid #cabfbf;
+  border-radius: .5rem;
+  padding: .5rem;
+  width: 200%;
+  height: 180%;
+  text-transform: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.pessoas .pesquisa .inputBox:focus {
+  border-color: #008189;
+}
+
+.pessoas .pesquisa .btn-pesquisa {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: .4rem;
+  width: 70%;
+  height: 40px;
+  font-size: 1.5rem;
+}
+
+.pessoas .pesquisa .btn-pesquisa:hover {
+  color: #fff;
+  background-color: #008189;
+  border-color: #008189;
+}
+
+.pessoas .box-container {
+  display: flex;
+  gap: 7.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+  margin-top: 1.9rem;
+}
+
+.pessoas .box-container .box {
+
+  text-align: center;
+  padding: 1rem;
+  max-width: 600px;
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.pessoas .box-container .box h5 {
+  font-size: 1.5rem;
+}
+
+.pessoas .box-container .box p {
+  text-align: left;
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.pessoas .box-container .box p span {
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: inline;
+  color: #000;
+}
+
+.pessoas .box-container .box .btn {
+  background-color: #008189;
+  cursor: pointer;
+  color: #fff;
+  padding: .3rem;
+  border: 2px solid #008189;
+  border-radius: .6rem;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: .2rem;
+  margin-bottom: .1rem;
+}
+
+.pessoas .box-container .box img {
+  width: 100%;
+  height: 15rem;
+  border-radius: .5rem;
+}
+
+.conectividade{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+  height: 80vh;
+  gap: 2rem; 
+  text-align: center;
+}
+
+.conectividade h1{
+    font-family: 'Poppins';
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 1.2rem;
+    width: 900px;
+    height: 170px;
+    color: #003438;
+}
+
+.conectividade .conectividade-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.conectividade p {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.6rem;
+    width: 40%;
+    text-align: left;
+    font-family: 'Poppins';
+   
+}
+
+.conectividade .image-container {
+    background-color: #fff;
+    padding: 12px;
+}
+
+.conectividade .image-container img{
+    width: 350px;
+    height: auto;
+}
+
+
+/* Estilo geral do rodapé */
+.rodape {
+  background-color: #003438;
+  padding: 1.5rem; /* Reduzimos o padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem; /* Reduzimos o gap entre os blocos */
+}
+
+/* Container das caixas */
+.box-container-rodape {
+  display: flex;
+  justify-content: space-between; /* Alinhamos cada bloco mais próximo das laterais */
+  width: 100%; /* Aumentamos a largura para quase toda a tela */
+  max-width: 1200px; /* Definimos uma largura máxima */
+}
+
+/* Estilo para cada caixa */
+.box-rodape {
+  text-align: left;
+}
+
+.box-rodape h1 {
+  background-color: #008189;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  margin-top: 32px;
+}
+
+.box-rodape span{
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+/* Estilo para os links */
+.link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 0.3rem 0; /* Reduzimos o espaçamento entre links */
+  font-size: 1.1rem;
+}
+
+.link:hover {
+  color: #fffb00;
+}
+
+/* Rodapé final com direitos reservados */
+.direitos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%; 
+  max-width: 1200px;
+  border-top: 1px solid #000;
+  padding-top: 0.8rem; 
+  font-size: 1rem;
+  color: #fff;
+}
+
+.direitos a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.direitos a:hover {
+  color: #fffb00;
+}
