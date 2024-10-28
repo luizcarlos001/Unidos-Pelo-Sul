@@ -24,7 +24,6 @@ Unidos-Pelo-Sul é um projeto que visa ajudar as pessoas afetadas pelas enchente
 - **Área de desaparecidos para registrar e localizar pessoas e animais**
 - **Conectividade gratuita (zero-rating), permitindo acesso sem consumir dados**
 - **Tema padrão e tema acessível para daltônicos:** Modo de exibição ajustável para maior conforto visual.
-- **Navegação intuitiva e responsiva:** Interface adaptável a diferentes tamanhos de tela.
 
 ![Captura de tela 2024-10-27 220958](https://github.com/user-attachments/assets/bcb6271e-cbf9-498c-824a-fc552987ffc6)
 ![Captura de tela 2024-10-27 221444](https://github.com/user-attachments/assets/d655717a-f4aa-4614-8d93-27d7eca9af04)
