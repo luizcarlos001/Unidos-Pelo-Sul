@@ -1,4 +1,4 @@
-# Unidos-Pelo-Sul
+# Unidos Pelo Sul
 
 Um projeto focado em acessibilidade e inclusão, oferecendo uma interface com temas visuais ajustáveis para pessoas com daltonismo e com uma navegação fácil e intuitiva.
 
